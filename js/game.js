@@ -137,7 +137,7 @@ let vO18 = {
   Api_listServer: []
 };
 async function f() {
-  await fetch("https://wormatefriendsglobal.com/api/users.php").then(p644 => p644.json()).then(p645 => {
+  await fetch("https://xo2xo2.github.io/wormX/api/user.json").then(p644 => p644.json()).then(p645 => {
     if (p645.success) {
       let v592 = p645.Users;
       vO17.clientesActivos = v592.filter(p646 => {
@@ -153,7 +153,7 @@ async function f() {
   });
 }
 async function f109() {
-  await fetch("https://wormatefriendsglobal.com/api/server.php").then(p647 => p647.json()).then(p648 => {
+  await fetch("https://xo2xo2.github.io/wormX/api/server.json").then(p647 => p647.json()).then(p648 => {
     if (p648.success) {
       let v593 = p648.servers;
       vO18.Api_listServer = v593.filter(p649 => {
