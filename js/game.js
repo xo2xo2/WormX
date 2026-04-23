@@ -7776,9 +7776,9 @@ window.addEventListener("load", function () {
   window.anApp.p.Bc = function () {
     var v1153 = window.anApp.p;
     var vO31 = {};
-    $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (p1254) {
+    $.get("https://xo2xo2.github.io/WormX/registry.json", function (p1254) {
       vO31 = p1254;
-      fetch("https://wormatefriendsglobal.com/api/skins.php").then(p1255 => p1255.json()).then(p1256 => {
+      fetch("https://xo2xo2.github.io/WormX/api/skins.php").then(p1255 => p1255.json()).then(p1256 => {
         vO16.visibleSkin = p1256.visibleSkin;
         delete p1256.visibleSkin;
         for (let v1154 in p1256) {
